@@ -7,6 +7,15 @@ import Projects from './components/Projects'
 import Experience from './components/Experience'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import AIChatbot from './components/AIChatbot'
+import ThreeBackground from './components/ThreeBackground'
+import VoiceCommand from './components/VoiceCommand'
+import RealTimeAnalytics from './components/RealTimeAnalytics'
+import CodePlayground from './components/CodePlayground'
+import BlockchainVerification from './components/BlockchainVerification'
+import PWAInstallPrompt from './components/PWAInstallPrompt'
+import GestureControls from './components/GestureControls'
+import ResumeGenerator from './components/ResumeGenerator'
 
 function App() {
   const [darkMode, setDarkMode] = useState(false)
@@ -31,17 +40,27 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300">
+    <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300 relative">
+      <ThreeBackground />
       <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      <main>
+      <main className="relative z-10">
         <Hero />
         <About />
+        <BlockchainVerification />
         <Skills />
         <Projects />
         <Experience />
         <Contact />
       </main>
       <Footer />
+
+      <AIChatbot />
+      <VoiceCommand />
+      <RealTimeAnalytics />
+      <CodePlayground />
+      <PWAInstallPrompt />
+      <GestureControls />
+      <ResumeGenerator />
     </div>
   )
 }
