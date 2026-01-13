@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "E-Commerce Platform",
+      "description": "Plateforme e-commerce complète avec panier, paiement et gestion des commandes",
+      "technologies": ["React", "Node.js", "MongoDB", "Stripe"],
+      "image": "/assets/project1.jpg",
+      "github": "https://github.com/username/ecommerce",
+      "demo": "https://demo-ecommerce.com",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Task Management App",
+      "description": "Application de gestion de tâches collaborative en temps réel",
+      "technologies": ["Vue.js", "Firebase", "Tailwind CSS"],
+      "image": "/assets/project2.jpg",
+      "github": "https://github.com/username/task-manager",
+      "demo": "https://demo-tasks.com",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "Social Media Dashboard",
+      "description": "Dashboard analytics pour réseaux sociaux avec visualisations interactives",
+      "technologies": ["React", "D3.js", "Express", "PostgreSQL"],
+      "image": "/assets/project3.jpg",
+      "github": "https://github.com/username/social-dashboard",
+      "demo": "https://demo-dashboard.com",
+      "featured": false
+    }
+  ]
+}

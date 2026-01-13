@@ -1,0 +1,36 @@
+{
+  "profile": {
+    "name": "Votre Nom",
+    "title": "Full Stack Developer",
+    "bio": "Développeur Full Stack passionné avec plus de 5 ans d'expérience dans la création d'applications web modernes et performantes. Spécialisé en React, Node.js et architecture cloud.",
+    "location": "Paris, France",
+    "email": "contact@example.com",
+    "phone": "+33 6 12 34 56 78",
+    "social": {
+      "github": "https://github.com/username",
+      "linkedin": "https://linkedin.com/in/username",
+      "twitter": "https://twitter.com/username"
+    },
+    "resume": "/assets/resume.pdf"
+  },
+  "experience": [
+    {
+      "title": "Senior Full Stack Developer",
+      "company": "Tech Company Inc.",
+      "period": "2022 - Présent",
+      "description": "Développement d'applications web complexes et gestion d'équipe technique"
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "Startup Innovation",
+      "period": "2020 - 2022",
+      "description": "Création de MVP et développement de nouvelles fonctionnalités"
+    },
+    {
+      "title": "Frontend Developer",
+      "company": "Digital Agency",
+      "period": "2018 - 2020",
+      "description": "Développement d'interfaces utilisateur modernes et responsives"
+    }
+  ]
+}

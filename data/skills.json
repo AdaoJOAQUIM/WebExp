@@ -1,0 +1,25 @@
+{
+  "skills": {
+    "frontend": [
+      { "name": "React", "level": 95, "icon": "⚛️" },
+      { "name": "Vue.js", "level": 90, "icon": "🟢" },
+      { "name": "TypeScript", "level": 88, "icon": "📘" },
+      { "name": "Tailwind CSS", "level": 92, "icon": "🎨" },
+      { "name": "Next.js", "level": 85, "icon": "▲" }
+    ],
+    "backend": [
+      { "name": "Node.js", "level": 93, "icon": "🟩" },
+      { "name": "Express", "level": 90, "icon": "🚂" },
+      { "name": "Python", "level": 85, "icon": "🐍" },
+      { "name": "PostgreSQL", "level": 88, "icon": "🐘" },
+      { "name": "MongoDB", "level": 87, "icon": "🍃" }
+    ],
+    "tools": [
+      { "name": "Git", "level": 95, "icon": "📦" },
+      { "name": "Docker", "level": 82, "icon": "🐳" },
+      { "name": "AWS", "level": 80, "icon": "☁️" },
+      { "name": "CI/CD", "level": 85, "icon": "🔄" },
+      { "name": "Figma", "level": 78, "icon": "🎨" }
+    ]
+  }
+}
