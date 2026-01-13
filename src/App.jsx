@@ -16,6 +16,12 @@ import BlockchainVerification from './components/BlockchainVerification'
 import PWAInstallPrompt from './components/PWAInstallPrompt'
 import GestureControls from './components/GestureControls'
 import ResumeGenerator from './components/ResumeGenerator'
+import GamificationSystem from './components/GamificationSystem'
+import GitHubStats from './components/GitHubStats'
+import SkillTree from './components/SkillTree'
+import SocialProof from './components/SocialProof'
+import EasterEggs from './components/EasterEggs'
+import PortfolioQuiz from './components/PortfolioQuiz'
 
 function App() {
   const [darkMode, setDarkMode] = useState(false)
@@ -61,6 +67,12 @@ function App() {
       <PWAInstallPrompt />
       <GestureControls />
       <ResumeGenerator />
+      <GamificationSystem />
+      <GitHubStats />
+      <SkillTree />
+      <SocialProof />
+      <EasterEggs />
+      <PortfolioQuiz />
     </div>
   )
 }
